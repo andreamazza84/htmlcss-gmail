@@ -9,16 +9,42 @@ body{
   /* background-size: contain; */
 }
 
+.container{
+  width: 800px;
+  margin: auto;
+}
+
 header{
   border-bottom: 1px solid white;
   border-color: white;
   padding: 5px;
 }
 
-h1{
+nav{
+  border-bottom: 1px solid white;
+  border-color: white;
+  margin-top: 10px;
+}
+
+h1, h2{
   font-weight: lighter;
 }
 
 #logo{
   display: inline;
+}
+
+#button{
+  color: black;
+  border-radius: 3px;
+  background-color: #e7e7e7;
+}
+
+#ur_msg{
+  display: inline-block;
+  background-color: orange;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  text-align: center;
 }
