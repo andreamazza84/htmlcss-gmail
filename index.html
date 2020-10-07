@@ -9,8 +9,8 @@
     <div class="container">
       <!-- intestazione pagina -->
       <header>
-        <img src="img/gmail_logo.png" alt="logo di gmail formato di lettera postale con M in rosso evidenziata sui contorni">
-        <h1 id="logo">Gmail</h1>
+        <img id="img_logo" src="img/gmail_logo.png" alt="logo di gmail formato di lettera postale con M in rosso evidenziata sui contorni">
+        <h2 id="logo">Gmail</h2>
       </header>
       <!-- /intestazione pagina -->
 
@@ -23,14 +23,44 @@
       <!-- /barra ricerca e notifiche -->
       <!-- elenco email -->
       <main>
+        <!-- email letta -->
         <div class="item msg_read">
           <input type="checkbox" name="select_item" value="select_item">
-          <span class="star">&star;</span>
+          <span class="star">&#9733;</span>
           <span class="oggetto">Oggetto della email</span>
           <span class="spazio"> - </span>
           <span class="corpo" max-length="10">testo della email...</span>
         </div>
-        
+        <!-- /email letta -->
+
+        <!-- email non letta -->
+        <div class="item msg_unread">
+          <input type="checkbox" name="select_item" value="select_item">
+          <span class="star">&#9733;</span>
+          <span class="oggetto">Oggetto della email</span>
+          <span class="spazio"> - </span>
+          <span class="corpo" max-length="10">testo della email...</span>
+        </div>
+        <!-- /email non letta -->
+        <!-- email letta -->
+        <div class="item msg_read">
+          <input type="checkbox" name="select_item" value="select_item">
+          <span class="star">&#9733;</span>
+          <span class="oggetto">Oggetto della email</span>
+          <span class="spazio"> - </span>
+          <span class="corpo" max-length="10">testo della email...</span>
+        </div>
+        <!-- /email letta -->
+        <!-- email letta -->
+        <div class="item msg_read">
+          <input type="checkbox" id="select_item" name="select_item" value="select_item">
+          <span class="star">&#9733;</span>
+          <span class="oggetto">Oggetto della email</span>
+          <span class="spazio"> - </span>
+          <span class="corpo" max-length="10">testo della email...</span>
+        </div>
+        <!-- /email letta -->
+
       </main>
       <!-- /elenco email -->
       <!-- piè di pagina -->
