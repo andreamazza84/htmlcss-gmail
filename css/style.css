@@ -1,6 +1,6 @@
 *{
   box-sizing: border-box;
-  color: white;
+  color: #fff;
 }
 
 body{
@@ -36,27 +36,27 @@ h2{
 
 #logo{
   display: inline-block;
-  height: 100%;
-  width: 80%;
   vertical-align: top;
-  /* line-height: 75px */
 }
 
 #button{
   color: black;
   border-radius: 3px;
-  background-color: #e7e7e7;
+  background-color: #fafafa;
+  border: 1px solid black;
+  font-size: 12px;;
 }
 
 #ur_msg{
   display: inline-block;
   background-color: orange;
   border-radius: 50%;
-  width: 40px;
-  height: 40px;
+  width: 45px;
+  height: 45px;
   font-size: 22px;
+  font-weight: lighter;
   text-align: center;
-  line-height: 40px;
+  line-height: 45px;
 }
 
 #end_logo{
@@ -71,8 +71,10 @@ h2{
 }
 
 .item{
+  height: 25px;;
   border: 1px solid black;
   padding-left: 5px;
+  line-height: 25px;
 }
 
 .msg_read{
