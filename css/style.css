@@ -12,6 +12,7 @@ body{
 .container{
   width: 800px;
   margin: auto;
+  margin-top:20px;
 }
 
 header{
@@ -27,6 +28,10 @@ nav{
 main{
   padding: 5px 0 5px 0;
   border-bottom: 1px solid white;
+}
+
+footer{
+
 }
 
 h1, h2{
@@ -52,12 +57,22 @@ h1, h2{
   text-align: center;
 }
 
+#end_logo{
+  font-weight: bold;
+  text-align: center;
+}
+
+#signature{
+  font-size: 16px;
+  font-style: italic;
+}
+
 .item{
   background-color: white;
   border: 1px solid black;
 }
 
-.oggetto, .star {
+.oggetto, .star{
   color: black;
   font-weight: bold;
 }
