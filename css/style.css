@@ -44,7 +44,11 @@ h2{
   border-radius: 3px;
   background-color: #fafafa;
   border: 1px solid black;
-  font-size: 12px;;
+  font-size: 12px;
+}
+
+#search_bar{
+  color: black;
 }
 
 #ur_msg{
@@ -84,7 +88,6 @@ h2{
 .msg_unread{
   background-color: #fff;
 }
-
 
 .oggetto, .star{
   color: black;

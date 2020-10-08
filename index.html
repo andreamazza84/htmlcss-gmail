@@ -16,11 +16,14 @@
 
       <!-- barra ricerca e notifiche -->
       <nav>
-        <input type="text" name="search_bar" id="search_bar" placeholder="Search">
-        <input id="button" type="button" value="VAI">
+        <form action="">
+          <input type="search" name="search_bar" id="search_bar" placeholder="Search">
+          <input type="submit" id="button" value="VAI">
+        </form>
         <h2>You have <span id=ur_msg>30</span> unread</h2>
       </nav>
       <!-- /barra ricerca e notifiche -->
+
       <!-- elenco email -->
       <main>
         <!-- email letta -->
@@ -32,7 +35,6 @@
           <span class="corpo">testo della email...</span>
         </div>
         <!-- /email letta -->
-
         <!-- email non letta -->
         <div class="item msg_unread">
           <input type="checkbox" name="select_item" value="select_item">
@@ -60,9 +62,9 @@
           <span class="corpo">testo della email...</span>
         </div>
         <!-- /email letta -->
-
       </main>
       <!-- /elenco email -->
+
       <!-- piè di pagina -->
       <footer>
         <h2 id="end_logo">GMail <span id="signature">powered by Andrea</span></h2>
